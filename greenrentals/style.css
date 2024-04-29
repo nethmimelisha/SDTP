@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e3e4e5;
+}
+
+header img {
+    height: 70px;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem; 
+}
+
+.nav-tabs .nav-link {
+    color: #555;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.table td .btn {
+    color: white;
+    margin-right: 5px;
+}
+
+.house-details h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.house-details p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+}
+
+#googleMap {
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+
+
+.house-details p strong {
+    color: #000;
+}
+
+.house-details .ratings {
+    color: #ffd700;
+}
+
